@@ -1,0 +1,43 @@
+name: 🚀 Epic
+description: Create an epic issue template
+title: "[Epic] <title>"
+labels: ["Epic"]
+projects: ["WebifyServices/24"]
+type: Epic
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: "High-level overview of the epic."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Objectives
+      description: "What are the goals of this epic?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Features/Stories
+      description: "List all features or user stories that make up this epic."
+      value: |
+        - Feature 1
+        - Feature 2
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: "Define what needs to be true for this epic to be considered complete."
+      value: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Context
+      description: "Any relevant background or information for this epic."
+    validations:
+      required: false

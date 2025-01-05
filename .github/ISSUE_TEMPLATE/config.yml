@@ -2,22 +2,22 @@ blank_issues_enabled: false
 issue_templates:
 - name: Task
   description: Create a task issue template
-  file: task.md
+  file: task.yml
 - name: Bug
   description: Create a bug issue template
-  file: bug.md
+  file: bug.yml
 - name: Feature
   description: Create a feature issue template
-  file: feature.md
+  file: feature.yml
 - name: Epic
   description: Create an epic issue template
-  file: epic.md
+  file: epic.yml
 - name: Spike
   description: Create a spike issue template
-  file: spike.md
+  file: spike.yml
 - name: Enhancement
   description: Create an enhancement issue template
-  file: enhancement.md
+  file: enhancement.yml
 - name: Chore
   description: Create a chore issue template
-  file: chore.md
+  file: chore.yml

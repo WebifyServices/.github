@@ -1,0 +1,42 @@
+name: ✨ Feature
+description: Create a feature issue template
+title: "[Feature] <title>"
+labels: [ "Feature" ]
+projects: [ "WebifyServices/24" ]
+type: Feature
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: "What is the feature and why is it needed?"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: User Stories
+    description: "Include relevant user stories if applicable."
+    value: |
+      - As a [user role], I want [feature or capability], so that [value or benefit].
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Acceptance Criteria
+    description: "Define what needs to be true for this feature to be considered complete."
+    value: |
+      - [ ] Criterion 1
+      - [ ] Criterion 2
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Context
+    description: "Any relevant background or information for this feature."
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Media
+    description: "Attach relevant media or wireframes."
+  validations:
+    required: false

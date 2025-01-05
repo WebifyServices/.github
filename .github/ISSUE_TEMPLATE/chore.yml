@@ -1,0 +1,28 @@
+name: 🔧 Chore
+description: Create a chore issue template
+title: "[Chore] <title>"
+labels: ["Chore"]
+projects: ["WebifyServices/24"]
+type: Chore
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: "What work needs to be done and why?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: "Define what needs to be true for this chore to be considered complete."
+      value: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Context
+      description: "Any relevant background or information for completing this chore."
+    validations:
+      required: false

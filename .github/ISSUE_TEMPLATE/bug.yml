@@ -1,0 +1,64 @@
+name: 🐞 Bug
+description: Create a bug issue template
+title: "[Bug] <title>"
+labels: [ "Bug", "Needs Triage" ]
+projects: [ "WebifyServices/24" ]
+type: Bug
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: "What is the bug? Provide as much detail as possible."
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: "### Steps to Reproduce"
+- type: textarea
+  attributes:
+    label: Steps to Reproduce
+    description: "Describe the steps to reproduce the bug."
+    placeholder: |
+      1. Step 1
+      2. Step 2
+      3. Step 3
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: "What should happen?"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Actual Behavior
+    description: "What actually happens?"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Environment
+    description: "Provide details such as browser, operating system, or app version."
+    placeholder: |
+      - OS:
+      - Browser:
+      - App Version:
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Screenshots/Media
+    description: Attach relevant media to illustrate the bug.
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Severity
+    description: "How critical is this bug?"
+    options:
+    - Blocker
+    - Critical
+    - Minor
+  validations:
+    required: true
