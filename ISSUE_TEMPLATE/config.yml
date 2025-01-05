@@ -1,0 +1,23 @@
+blank_issues_enabled: false
+issue_templates:
+- name: Task
+  description: Create a task issue template
+  file: task.md
+- name: Bug
+  description: Create a bug issue template
+  file: bug.md
+- name: Feature
+  description: Create a feature issue template
+  file: feature.md
+- name: Epic
+  description: Create an epic issue template
+  file: epic.md
+- name: Spike
+  description: Create a spike issue template
+  file: spike.md
+- name: Enhancement
+  description: Create an enhancement issue template
+  file: enhancement.md
+- name: Chore
+  description: Create a chore issue template
+  file: chore.md
