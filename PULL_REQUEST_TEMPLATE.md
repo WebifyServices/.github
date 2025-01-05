@@ -1,5 +1,3 @@
-# Pull Request Template
-
 ## Short Description
 <!-- Provide a concise summary of the changes made in this PR. -->
 
